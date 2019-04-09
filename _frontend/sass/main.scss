@@ -1,18 +1,15 @@
 //Reset
-@import './_reset.scss';
+//@import './_reset.scss';
 
 //Plugins
-
+@import './_fonts';
 //General
+@import './_pe7';
 @import './_general';
 @import './_grid';
 @import './_variables';
 @import './_mixins';
-@import './responsive';
-@import './_utilities';
-@import './fonts';
- 
-//Components
-//@import './components/_nav';
-//@import './components/_footer';
-
+@import './_animation';
+@import './_preloader';
+@import './_scrollbars';
+@import './_responsive';

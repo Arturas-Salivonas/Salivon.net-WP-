@@ -64,7 +64,7 @@
 								<div class="block-title h3_low">
 									<h3>Languages</h3>
 								</div>
-                <h5 style="font-weight: 500;padding-left:2rem;">English, Russian and Lithuanian</h5>
+                <span style="font-weight: 500;padding-left:2rem;font-size: 14px;">English, Russian and Lithuanian</span>
 
 								 <div class="block-title h3_low">
 									<div class="download-cv-block" style="margin-top: 5rem;">
