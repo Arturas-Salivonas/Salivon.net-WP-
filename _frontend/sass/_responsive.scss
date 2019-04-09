@@ -1,0 +1,49 @@
+
+$mobile-width: 600px;
+$tablet-width: 768px;
+$desktop-width: 1025px;
+$ldesktop-width: 1281px;
+
+
+@mixin desktop {
+  @media (max-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+    @media (max-width: #{$desktop-width - 1px}) {
+      @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: #{$mobile-width}) {
+      @content;
+    }
+}
+
+
+@mixin tablet-desktop {
+    @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+      @content;
+    }
+  }
+
+@mixin ldesktop {
+    @media (max-width: #{$ldesktop-width}) {
+        @content;
+    }
+}
+
+
+  //Example
+
+  .myClass {
+      background: blue;
+
+        @include tablet {
+            background: red;   
+        }
+  }
+  
