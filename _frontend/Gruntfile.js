@@ -26,6 +26,19 @@ module.exports = function(grunt) {
             dest: '../scripts/scripts.min.js'
             }
         },
+
+      cssmin: {
+        options: {
+          mergeIntoShorthands: false,
+          roundingPrecision: -1
+        },
+        target: {
+          files: [{
+            src: ['../style.css'],
+            dest: '../style.min.css'
+          }]
+        }
+      },
 		
 		sass: {
 			dist: {
@@ -33,7 +46,7 @@ module.exports = function(grunt) {
 				style: 'expanded'
 			  },
 			  files: {
-				'../css/main.css': './sass/main.scss'
+				'../style.css': './sass/main.scss'
 			  }
 			}
 		  },
@@ -61,15 +74,17 @@ module.exports = function(grunt) {
     // Load the plugins. Sass requires you to have Ruby and Sass installed: https://github.com/gruntjs/grunt-contrib-sass
     grunt.loadNpmTasks('grunt-browserify');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-	grunt.loadNpmTasks('grunt-contrib-sass');
-	grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
     
     
   
     // Default task(s).
     grunt.registerTask('default', [
     'browserify:dist',
-	'sass'
+  'sass',
+  'cssmin'
     ]);
 	
 	grunt.registerTask('build', [
