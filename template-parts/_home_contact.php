@@ -40,6 +40,7 @@
                   <ul class="social-links">
                     <li><a class="tip social-button" href="https://www.linkedin.com/in/salivonas/" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
                     <li><a class="tip social-button" href="https://www.facebook.com/arturas.salivonas" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="tip social-button" href="https://github.com/Arturas-Salivonas" title="Github"><i class="fa fa-github"></i></a></li>
                   </ul>
                 </div>
 						</div>
