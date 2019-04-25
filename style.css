@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|Oxygen:300,400,700);
 @font-face {
   font-family: Pe-icon-7-stroke;
   src: url(fonts/Pe-icon-7-stroke.eot?d7yf1v);
@@ -870,7 +869,7 @@ h4,
 h5,
 h6 {
   color: #222;
-  font-family: Oxygen, Helvetica, sans-serif;
+  font-family: "Oxygen", Helvetica, sans-serif;
   font-weight: 700;
   line-height: 1.5em;
   margin-top: 0;
