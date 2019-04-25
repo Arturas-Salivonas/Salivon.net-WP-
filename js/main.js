@@ -184,3 +184,14 @@ $('.bird-body').removeClass('focus-body3');
 // };
 // var particleCanvas = new ParticleNetwork(canvasDiv, options);
 // //https://github.com/JulianLaval/canvas-particle-network
+
+// Load images only when page is fully loaded
+function init() {
+  var imgDefer = document.getElementsByTagName('img');
+  for (var i = 0; i < imgDefer.length; i++) {
+    if (imgDefer[i].getAttribute('data-src')) {
+      imgDefer[i].setAttribute('src', imgDefer[i].getAttribute('data-src'));
+    }
+  }
+}
+window.onload = init;

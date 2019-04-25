@@ -37,10 +37,10 @@ $('[data-typer-targets]').typer({
 <script src="/wp-content/themes/salivon.net_portfolio/js/jquery.hoverdir.js"></script>
 <script src="/wp-content/themes/salivon.net_portfolio/js/main.js"></script>
 <!-- Reikalingas  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.3.5/lazyload.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.3.5/lazyload.min.js"></script>
 <script>
 	var myLazyLoad = new LazyLoad();
-</script>
+</script> -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
 <script>
@@ -56,9 +56,8 @@ function rand(min, max) {
   return Math.floor(Math.random() * (max + 1)) + min;
 }
 });
-
-
 </script>
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36192953-2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
