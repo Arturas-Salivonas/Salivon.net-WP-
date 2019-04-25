@@ -19,7 +19,7 @@
 <?php include 'template-parts/_home_mobilemenu.php';?> <!-- calling main and mobile nav menu (<header>) -->
 
 	<div id="main" class="site-main">
-		<div id="particle-canvas" class="pt-wrapper">
+		<div class="pt-wrapper">
 			<div class="subpages">
 				<?php include 'template-parts/_home_home.php';?> <!-- calling Front Page home Section -->
 				<?php include 'template-parts/_home_aboutme.php';?> <!-- calling Front page About me Section -->

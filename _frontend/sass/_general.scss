@@ -75,8 +75,22 @@ img {
     visibility: visible
 }
 
+input,
+button,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 100%;
+    border: none;
+    /* border-bottom: 1px solid #FF5722; */
+    box-shadow: 1px 1px 3px 0px #c7c7c7;
+    border-radius: 2px;
+    padding: 1rem;
+}
 
-input[type=submit],
+/* input[type=submit],
 input[type=button],
 button,
 a.button {
@@ -95,7 +109,7 @@ a.button {
     font-family: $mfont;
     text-transform: uppercase;
     letter-spacing: 1px;
-}
+} */
 
 .btn {
     border-radius: 0
@@ -297,6 +311,10 @@ ul.social-links {
     margin: 0;
     padding: 0;
     text-align: center;
+}
+
+#mCSB_5 ul.social-links li{
+    display: inline-block;
 }
 
 .pt-page-5 ul.social-links {
