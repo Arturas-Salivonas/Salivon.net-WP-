@@ -1320,16 +1320,15 @@ ul.social-links li:last-child a {
   padding-left: 20px;
   padding-bottom: 20px;
 }
+.timeline-event:last-child {
+  padding-bottom: 0px;
+}
 .timeline-event p {
   color: #4a4a4a;
   margin: 0 0 4px;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.45em;
-}
-
-.timeline-event:last-child {
-  padding-bottom: 0px;
 }
 
 .timeline-event > * {
@@ -1348,7 +1347,6 @@ ul.social-links li:last-child a {
   margin-left: -20px;
   font-size: 1.3rem;
 }
-
 .event-date .event-icon {
   display: inline-block;
   position: absolute;
@@ -1362,7 +1360,6 @@ ul.social-links li:last-child a {
   border-top: 1px solid #ff724c;
   border-left: 1px solid #ff724c;
 }
-
 .event-date .event-icon i {
   font-size: 18px;
   line-height: 26px;
@@ -1397,26 +1394,12 @@ ul.social-links li:last-child a {
   margin-left: -0.5em;
   margin-right: -0.5em;
 }
-
 .portfolio-grid figure {
   width: 33%;
   float: left;
-  padding: 3px;
-}
-
-.portfolio-grid img {
   position: relative;
-  display: block !important;
-  width: 100%;
-  opacity: 0.9;
-  transition: 0.3s all;
+  padding: 1em;
 }
-
-.portfolio-grid img:hover {
-  opacity: 1;
-  transition: 0.3s all;
-}
-
 .portfolio-grid figure a div {
   top: 0px;
   left: -100%;
@@ -1427,30 +1410,12 @@ ul.social-links li:last-child a {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
-.portfolio-grid figure a:hover div {
-  left: 0px;
-}
-
-.portfolio-grid figure {
-  float: left;
-  position: relative;
-  padding: 1em;
-}
-
-.portfolio-grid figure a,
-.portfolio-rid figure a img {
-  display: block;
-  position: relative;
-}
-
 .portfolio-grid figure a {
   position: relative;
   display: block;
   overflow: hidden;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
 }
-
 .portfolio-grid figure a div {
   position: absolute;
   background: rgba(255, 117, 79, 0.8);
@@ -1460,20 +1425,17 @@ ul.social-links li:last-child a {
   text-align: center;
   padding-top: 5em;
 }
-
 .portfolio-grid figure a div h5 {
   font-size: 2.6rem;
   margin: 10px 0;
   color: #ffffff;
 }
-
 .portfolio-grid figure a div small {
   color: #666;
   position: absolute;
   bottom: 10px;
   left: 20px;
 }
-
 .portfolio-grid figure a div i {
   color: #ff724c;
   position: absolute;
@@ -1482,7 +1444,6 @@ ul.social-links li:last-child a {
   right: 20px;
   margin: 0;
 }
-
 .portfolio-grid figure a div span {
   display: block;
   padding: 10px 0;
@@ -1494,6 +1455,21 @@ ul.social-links li:last-child a {
   -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 -10px 0 rgba(255, 255, 255, 0.3);
   -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 -10px 0 rgba(255, 255, 255, 0.3);
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 -10px 0 rgba(255, 255, 255, 0.3);
+}
+.portfolio-grid img {
+  position: relative;
+  display: block !important;
+  width: 100%;
+  opacity: 0.9;
+  transition: 0.3s all;
+}
+.portfolio-grid img:hover {
+  opacity: 1;
+  transition: 0.3s all;
+}
+
+.portfolio-grid figure a:hover div {
+  left: 0px;
 }
 
 .contact-info-block {

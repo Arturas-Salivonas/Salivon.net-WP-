@@ -490,6 +490,9 @@ ul.social-links li:last-child a {
     position: relative;
     padding-left: 20px;
     padding-bottom: 20px;
+    &:last-child {
+        padding-bottom: 0px;
+    }
     p {
         color: #4a4a4a;
         margin: 0 0 4px;
@@ -497,10 +500,6 @@ ul.social-links li:last-child a {
         font-weight: 300;
         line-height: 1.45em;
     }
-}
-
-.timeline-event:last-child {
-    padding-bottom: 0px
 }
 
 .timeline-event>* {
@@ -518,27 +517,25 @@ ul.social-links li:last-child a {
     padding: 5px 8px 5px 8px;
     margin-left: -20px;
     font-size:1.3rem;
-}
-
-.event-date .event-icon {
-    display: inline-block;
-    position: absolute;
-    top: -16px;
-    left: -16px;
-    background-color: $white;
-    z-index: 1;
-    height: 26px;
-    width: 26px;
-    text-align: center;
-    border-top: 1px solid $main-color;
-    border-left: 1px solid $main-color
-}
-
-.event-date .event-icon i {
-    font-size: 18px;
-    line-height: 26px;
-    margin: 0;
-    color: #222
+    .event-icon {
+        display: inline-block;
+        position: absolute;
+        top: -16px;
+        left: -16px;
+        background-color: $white;
+        z-index: 1;
+        height: 26px;
+        width: 26px;
+        text-align: center;
+        border-top: 1px solid $main-color;
+        border-left: 1px solid $main-color;
+         i {
+             font-size: 18px;
+             line-height: 26px;
+             margin: 0;
+             color: #222;
+         }
+    }
 }
 
 .event-name {
@@ -566,105 +563,86 @@ ul.social-links li:last-child a {
 
 .portfolio-grid {
     margin-left: -0.5em;
-    margin-right: -0.5em
-}
-
-.portfolio-grid figure {
-    width: 33%;
-    float: left;
-    padding: 3px
-}
-
-.portfolio-grid img {
-    position: relative;
-    display: block !important;
-    width: 100%;
-    opacity: 0.9;
-    transition: 0.3s all
-}
-
-.portfolio-grid img:hover {
-    opacity: 1;
-    transition: 0.3s all
-}
-
-.portfolio-grid figure a div {
-    top: 0px;
-    left: -100%;
-    padding: 5px 20px;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out
+    margin-right: -0.5em;
+    figure {
+        width: 33%;
+            float: left;
+            position: relative;
+            padding: 1em;
+        a div {
+            top: 0px;
+            left: -100%;
+            padding: 5px 20px;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+        a{
+                 position: relative;
+                 display: block;
+                 overflow: hidden;
+                 box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+                 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+                 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+                 div {
+                     position: absolute;
+                     background: rgba(255, 117, 79, 0.8);
+                     width: 100%;
+                     height: 100%;
+                     color: #888;
+                     text-align: center;
+                     padding-top: 5em;
+                     h5 {
+                         font-size: 2.6rem;
+                         margin: 10px 0;
+                         color: $white;
+                     }
+                     small {
+                         color: #666;
+                         position: absolute;
+                         bottom: 10px;
+                         left: 20px;
+                     }
+                     i {
+                         color: $main-color;
+                         position: absolute;
+                         font-size: 24px;
+                         bottom: 14px;
+                         right: 20px;
+                         margin: 0;
+                     }
+                     span {
+                         display: block;
+                         padding: 10px 0;
+                         text-transform: uppercase;
+                         font-weight: normal;
+                         color: rgba(255, 255, 255, 0.9);
+                         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+                         border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+                         -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 -10px 0 rgba(255, 255, 255, 0.3);
+                         -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 -10px 0 rgba(255, 255, 255, 0.3);
+                         box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 -10px 0 rgba(255, 255, 255, 0.3);
+                     }
+                 }
+        }
+    }
+    img {
+        position: relative;
+        display: block !important;
+        width: 100%;
+        opacity: 0.9;
+        transition: 0.3s all;
+        &:hover {
+            opacity: 1;
+            transition: 0.3s all;
+        }
+    }
 }
 
 .portfolio-grid figure a:hover div {
-    left: 0px
-}
-
-.portfolio-grid figure {
-    float: left;
-    position: relative;
-    padding: 1em
-}
-
-.portfolio-grid figure a,
-.portfolio-rid figure a img {
-    display: block;
-    position: relative
-}
-
-.portfolio-grid figure a {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12)
-}
-
-.portfolio-grid figure a div {
-    position: absolute;
-    background: rgba(255, 117, 79, 0.8);
-    width: 100%;
-    height: 100%;
-    color: #888;
-    text-align: center;
-    padding-top: 5em
-}
-
-.portfolio-grid figure a div h5 {
-    font-size: 2.6rem;
-    margin: 10px 0;
-    color: $white;
-}
-
-.portfolio-grid figure a div small {
-    color: #666;
-    position: absolute;
-    bottom: 10px;
-    left: 20px
-}
-
-.portfolio-grid figure a div i {
-    color: $main-color;
-    position: absolute;
-    font-size: 24px;
-    bottom: 14px;
-    right: 20px;
-    margin: 0
-}
-
-.portfolio-grid figure a div span {
-    display: block;
-    padding: 10px 0;
-    text-transform: uppercase;
-    font-weight: normal;
-    color: rgba(255, 255, 255, 0.9);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 -10px 0 rgba(255, 255, 255, 0.3);
-    -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 -10px 0 rgba(255, 255, 255, 0.3);
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), 0 -10px 0 rgba(255, 255, 255, 0.3)
+    left: 0px;
 }
 
 .contact-info-block {
