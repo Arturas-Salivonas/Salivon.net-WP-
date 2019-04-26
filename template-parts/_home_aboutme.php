@@ -37,9 +37,9 @@
 							</div>
 															<ul class="col-sm-1 col-md-1 col-lg-1 social-links hide--mobile">
                   <!-- Full list of social icons: http://fontawesome.io/icons/#brand -->
-									<li><a class="tip social-button" href="https://www.linkedin.com/in/salivonas/" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-									<li><a class="tip social-button" href="https://www.facebook.com/arturas.salivonas" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-									<li><a class="tip social-button" href="http://github.com/Arturas-Salivonas" title="GitHub"><i class="fa fa-github"></i></a></li>
+									<li><a class="tip social-button" href="https://www.linkedin.com/in/salivonas/" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+									<li><a class="tip social-button" href="https://www.facebook.com/arturas.salivonas" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a class="tip social-button" href="http://github.com/Arturas-Salivonas" title="GitHub"><i class="fab fa-github"></i></a></li>
 								</ul>
 						</div>
 
