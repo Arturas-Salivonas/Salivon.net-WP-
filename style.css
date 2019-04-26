@@ -849,25 +849,18 @@ a {
   -moz-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
-
 a:hover {
-  color: #e56845;
+  color: #EE4D22;
   text-decoration: none;
   outline: 0;
 }
-
 a:focus {
   outline: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   color: #222;
   font-family: "Oxygen", Helvetica, sans-serif;
   font-weight: 700;
@@ -906,43 +899,15 @@ img {
   visibility: visible;
 }
 
-input,
-button,
-select,
-textarea {
+input, button, select, textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
   width: 100%;
   border: none;
-  /* border-bottom: 1px solid #FF5722; */
   box-shadow: 1px 1px 3px 0px #c7c7c7;
   border-radius: 2px;
   padding: 1rem;
-}
-
-/* input[type=submit],
-input[type=button],
-button,
-a.button {
-    display: inline-block;
-    position: relative;
-    padding: 0.8em 3em;
-    margin-bottom: .25em;
-    font-size: 1.1em;
-    outline: 0;
-    border: 3px dashed #ff724c;
-    color: #ff724c;
-    font-weight: 700;
-    text-shadow: none;
-    background: none;
-    border-radius: 0;
-    font-family: $mfont;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-} */
-.btn {
-  border-radius: 0;
 }
 
 input[type=submit]:hover,
@@ -952,7 +917,7 @@ button:hover,
 button:focus,
 a.button:hover,
 a.button:focus {
-  color: #fff;
+  color: #ffffff;
   background-color: #ff724c;
 }
 
@@ -961,16 +926,8 @@ a.button:hover a.button:after {
   transition: 0.3s all;
 }
 
-.no-padding {
-  padding: 0;
-}
-
 .subpage-block {
   margin-bottom: 30px;
-}
-
-.text-rotation {
-  display: block;
 }
 
 .border-block-top-110 {
@@ -1038,7 +995,6 @@ a.button:hover a.button:after {
   -moz-box-shadow: 0 1px 33px rgba(0, 0, 0, 0.15);
   box-shadow: 0 1px 33px rgba(0, 0, 0, 0.15);
 }
-
 .pt-page .section-inner {
   position: relative;
   padding: 20px 35px 45px;
@@ -1046,11 +1002,6 @@ a.button:hover a.button:after {
 
 .no-js .pt-page {
   position: relative;
-}
-
-.pt-page-content {
-  position: absolute;
-  width: 100%;
 }
 
 .pt-page-current,
@@ -1075,14 +1026,6 @@ a.button:hover a.button:after {
   overflow: auto;
 }
 
-.no-cssanimations .pt-message {
-  display: block;
-}
-
-.section-paddings-0 {
-  padding: 0;
-}
-
 .header {
   position: fixed;
   width: 150px;
@@ -1102,37 +1045,9 @@ a.button:hover a.button:after {
   text-align: center;
   z-index: 0;
 }
-
-.header .my-photo .border-block-bottom-40 {
-  border-color: #fff;
-}
-
 .my-photo img {
   position: relative;
-  border: 2px solid #fff;
-}
-
-.site-title-block {
-  position: relative;
-  z-index: 1;
-  margin: 15px 20px 5px;
-  text-align: center;
-}
-
-.site-title {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.2em;
-  margin: 0;
-}
-
-p.site-description {
-  color: #f5f5f5;
-  font-size: 14px;
-  font-weight: 300;
-  font-family: 'Oxygen', Helvetica, sans-serif;
-  margin: 5px 0;
+  border: 2px solid #ffffff;
 }
 
 ul.social-links {
@@ -1151,18 +1066,12 @@ ul.social-links {
   text-align: left;
 }
 
-ul.social-links li:hover {
-  transform: translateY(-5px);
-  transition: 0.3s all;
-}
-
 ul.social-links li {
   display: block;
   margin: 0;
   padding: 0;
   transition: 0.3s all;
 }
-
 ul.social-links li a {
   display: inline-block;
   margin: 0 1px;
@@ -1173,16 +1082,18 @@ ul.social-links li a {
   border: 1px solid #e5e5e5;
   text-align: center;
 }
-
 ul.social-links li a:hover {
-  color: #fff;
+  color: #ffffff;
   background-color: #ff724c;
   border-color: transparent;
 }
-
 ul.social-links li a i {
   font-size: 16px;
   line-height: 32px;
+}
+ul.social-links li:hover {
+  transform: translateY(-5px);
+  transition: 0.3s all;
 }
 
 ul.social-links li:last-child a {
@@ -1200,7 +1111,6 @@ ul.social-links li:last-child a {
   overflow: hidden;
   float: right;
 }
-
 .menu-toggle i {
   color: #ff724c;
   font-size: 21px;
@@ -1211,7 +1121,7 @@ ul.social-links li:last-child a {
   height: 100%;
   margin-left: 150px;
   position: relative;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .site-nav {
@@ -1223,42 +1133,32 @@ ul.social-links li:last-child a {
   display: block;
   padding: 0;
   margin: 0;
-  font-family: "Oxygen", Helvetica, sans-serif;
+  font-family: 'Oxygen', Helvetica, sans-serif;
 }
-
 .site-main-menu li {
   display: block;
   position: relative;
   padding: 0;
   text-align: center;
 }
-
-.site-main-menu li a,
-.site-main-menu li a:hover {
+.site-main-menu li a {
   display: block;
   position: relative;
   padding: 10px 20px;
   text-align: center;
-  color: #fff;
+  color: #ffffff !important;
   font-size: 15px;
   font-weight: 400;
   position: relative;
   text-decoration: none;
   outline: none;
   opacity: 0.6;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
-
-.site-main-menu li:first-child a {
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
-}
-
-.site-main-menu li a:hover,
-.site-main-menu li.active a {
+.site-main-menu li a:hover {
   background-color: transparent;
   opacity: 1;
 }
-
 .site-main-menu li a:after {
   display: block;
   position: absolute;
@@ -1274,6 +1174,15 @@ ul.social-links li:last-child a {
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+
+.site-main-menu li:first-child a {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.site-main-menu li.active a {
+  background-color: transparent;
+  opacity: 1;
 }
 
 .site-main-menu li a:hover:after,
@@ -1321,7 +1230,7 @@ ul.social-links li:last-child a {
   display: inline-block;
   position: relative;
   margin: 0;
-  color: #fff;
+  color: #ffffff;
   background-color: #ff724c;
   padding: 0 10px;
   font-size: 14px;
@@ -1337,17 +1246,6 @@ ul.social-links li:last-child a {
   padding: 0;
 }
 
-/* .block-title h3:after {
-     content: '';
-     display: block;
-     position: absolute;
-     width: 2px;
-     height: 100%;
-     left: -10px;
-     bottom: 0;
-     background-color: #ff724c
-}
- */
 .table {
   display: table;
   table-layout: fixed;
@@ -1370,7 +1268,6 @@ ul.social-links li:last-child a {
   width: 100%;
   z-index: 1;
 }
-
 .home-page-block h1 {
   color: #ff724c;
   text-align: center;
@@ -1378,38 +1275,20 @@ ul.social-links li:last-child a {
   margin: 0;
 }
 
-.home-page-description {
-  color: #222;
-  font-size: 20px;
-  font-weight: 300;
-  margin: 0 0 5px;
-  text-align: center;
-  font-family: "PT Sans", Helvetica, sans-serif;
-  height: 40px;
-  padding-top: 1rem;
-}
-
-.my-photo-block {
-  position: relative;
-}
-
 .info-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 .info-list li {
   padding: 5px 0;
   font-size: 14px;
   display: inline-block;
   width: 50%;
 }
-
 .info-list li:first-child {
   padding-top: 0;
 }
-
 .info-list li .title {
   display: inline-block;
   font-family: 'Oxygen', Helvetica, sans-serif;
@@ -1417,7 +1296,6 @@ ul.social-links li:last-child a {
   margin-right: 12px;
   color: #222;
 }
-
 .info-list li .title:after {
   content: '';
   display: block;
@@ -1426,7 +1304,6 @@ ul.social-links li:last-child a {
   margin-top: 0px;
   background-color: #ff724c;
 }
-
 .info-list li .value {
   font-family: "PT Sans", Helvetica, sans-serif;
   min-width: 250px;
@@ -1443,7 +1320,6 @@ ul.social-links li:last-child a {
   padding-left: 20px;
   padding-bottom: 20px;
 }
-
 .timeline-event p {
   color: #4a4a4a;
   margin: 0 0 4px;
@@ -1463,7 +1339,7 @@ ul.social-links li:last-child a {
 .event-date {
   display: inline-block;
   position: relative;
-  color: #fff;
+  color: #ffffff;
   font-weight: 300;
   line-height: 1.1em;
   margin: 0 0 3px;
@@ -1478,7 +1354,7 @@ ul.social-links li:last-child a {
   position: absolute;
   top: -16px;
   left: -16px;
-  background-color: #fff;
+  background-color: #ffffff;
   z-index: 1;
   height: 26px;
   width: 26px;
@@ -1588,7 +1464,7 @@ ul.social-links li:last-child a {
 .portfolio-grid figure a div h5 {
   font-size: 2.6rem;
   margin: 10px 0;
-  color: #fff;
+  color: #ffffff;
 }
 
 .portfolio-grid figure a div small {
@@ -1676,13 +1552,13 @@ ul.social-links li:last-child a {
 
 .header.header-color-light .site-main-menu li a,
 .header.header-color-light .site-main-menu li a:hover {
-  color: #fff;
+  color: #ffffff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .header.header-color-light .site-main-menu li a i,
 .header.header-color-light .site-main-menu li a:hover i {
-  color: #fff;
+  color: #ffffff;
 }
 
 .header.header-color-light .site-main-menu li.active a:after {
@@ -2346,7 +2222,7 @@ div.wpcf7-mail-sent-ok {
   font-family: "PT Sans", Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #fff;
+  color: #ffffff;
   border: none;
 }
 
@@ -2405,7 +2281,7 @@ span[data-typer-targets] {
 }
 
 .navigation--cta:hover {
-  background: #ee4d22;
+  background: #EE4D22;
   color: white;
 }
 
@@ -2472,7 +2348,7 @@ span[data-typer-targets] {
     width: 100%;
     height: 50px;
     border-bottom: 1px solid #eee;
-    background-color: #fff;
+    background-color: #ffffff;
     z-index: 1000;
   }
 
