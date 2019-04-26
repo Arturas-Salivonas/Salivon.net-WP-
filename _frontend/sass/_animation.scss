@@ -2029,30 +2029,6 @@
     animation: moveToBottom .7s ease-in-out both;
 }
 
-@-webkit-keyframes drift {
-    from {
-        -webkit-transform: rotate(0);
-        transform: rotate(0)
-    }
-
-    from {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg)
-    }
-}
-
-@keyframes drift {
-    from {
-        -webkit-transform: rotate(0);
-        transform: rotate(0)
-    }
-
-    from {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg)
-    }
-}
-
 @-webkit-keyframes cursor-blink {
     0% {
         opacity: 0

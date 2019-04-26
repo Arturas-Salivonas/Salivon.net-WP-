@@ -2,8 +2,8 @@
 					<div class="border-block-top-110"></div>
 					<div class="section-inner">
 					<div class="section--navigation__box hide--mobile">
-						<a class="navigation--cta navigation--previous" href="#home"><i class="pe-7s-icon pe-7s-angle-up" aria-hidden="true"></i></a>
-						<a class="navigation--cta navigation--next" href="#resume"><i class="pe-7s-icon pe-7s-angle-down" aria-hidden="true"></i></a>
+						<a class="navigation--cta navigation--previous" href="#home"><i class="fas fa-chevron-up"></i></a>
+						<a class="navigation--cta navigation--next" href="#resume"><i class="fas fa-chevron-down"></i></a>
 					</div>
 						<div class="section-title-block">
 							<div class="section-title-wrapper clearfix">
