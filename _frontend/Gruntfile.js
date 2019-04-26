@@ -34,8 +34,8 @@ module.exports = function(grunt) {
         },
         target: {
           files: [{
-            src: ['../style.css'],
-            dest: '../style.min.css'
+            src: ['../style-compiled.css'],
+            dest: '../style.css'
           }]
         }
       },
@@ -46,7 +46,7 @@ module.exports = function(grunt) {
 				style: 'expanded'
 			  },
 			  files: {
-				'../style.css': './sass/main.scss'
+				'../style-compiled.css': './sass/main.scss'
 			  }
 			}
 		  },

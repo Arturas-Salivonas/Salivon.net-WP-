@@ -12,10 +12,7 @@
 /**
  * Twenty Seventeen only works in WordPress 4.7 or later.
  */
-if ( version_compare( $GLOBALS['wp_version'], '4.7-alpha', '<' ) ) {
-	require get_template_directory() . '/inc/back-compat.php';
-	return;
-}
+
 
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -367,71 +364,15 @@ add_action( 'wp_head', 'twentyseventeen_pingback_header' );
 /**
  * Display custom color CSS.
  */
-function twentyseventeen_colors_css_wrap() {
-	if ( 'custom' !== get_theme_mod( 'colorscheme' ) && ! is_customize_preview() ) {
-		return;
-	}
 
-	require_once( get_parent_theme_file_path( '/inc/color-patterns.php' ) );
-	$hue = absint( get_theme_mod( 'colorscheme_hue', 250 ) );
-?>
-	<style type="text/css" id="custom-theme-colors" <?php if ( is_customize_preview() ) { echo 'data-hue="' . $hue . '"'; } ?>>
-		<?php echo twentyseventeen_custom_colors_css(); ?>
-	</style>
-<?php }
-add_action( 'wp_head', 'twentyseventeen_colors_css_wrap' );
 
 /**
  * Enqueue scripts and styles.
  */
 function twentyseventeen_scripts() {
 	// Add custom fonts, used in the main stylesheet.
-	
-
 	// Theme stylesheet.
 	wp_enqueue_style( 'twentyseventeen-style', get_stylesheet_uri() );
-
-	// Load the dark colorscheme.
-	if ( 'dark' === get_theme_mod( 'colorscheme', 'light' ) || is_customize_preview() ) {
-		wp_enqueue_style( 'twentyseventeen-colors-dark', get_theme_file_uri( '/assets/css/colors-dark.css' ), array( 'twentyseventeen-style' ), '1.0' );
-	}
-
-	// Load the Internet Explorer 9 specific stylesheet, to fix display issues in the Customizer.
-	if ( is_customize_preview() ) {
-		wp_enqueue_style( 'twentyseventeen-ie9', get_theme_file_uri( '/assets/css/ie9.css' ), array( 'twentyseventeen-style' ), '1.0' );
-		wp_style_add_data( 'twentyseventeen-ie9', 'conditional', 'IE 9' );
-	}
-
-	// Load the Internet Explorer 8 specific stylesheet.
-	wp_enqueue_style( 'twentyseventeen-ie8', get_theme_file_uri( '/assets/css/ie8.css' ), array( 'twentyseventeen-style' ), '1.0' );
-	wp_style_add_data( 'twentyseventeen-ie8', 'conditional', 'lt IE 9' );
-
-	// Load the html5 shiv.
-	wp_enqueue_script( 'html5', get_theme_file_uri( '/assets/js/html5.js' ), array(), '3.7.3' );
-	wp_script_add_data( 'html5', 'conditional', 'lt IE 9' );
-
-	wp_enqueue_script( 'twentyseventeen-skip-link-focus-fix', get_theme_file_uri( '/assets/js/skip-link-focus-fix.js' ), array(), '1.0', true );
-
-	$twentyseventeen_l10n = array(
-		'quote'          => twentyseventeen_get_svg( array( 'icon' => 'quote-right' ) ),
-	);
-
-	if ( has_nav_menu( 'top' ) ) {
-		wp_enqueue_script( 'twentyseventeen-navigation', get_theme_file_uri( '/assets/js/navigation.js' ), array( 'jquery' ), '1.0', true );
-		$twentyseventeen_l10n['expand']         = __( 'Expand child menu', 'twentyseventeen' );
-		$twentyseventeen_l10n['collapse']       = __( 'Collapse child menu', 'twentyseventeen' );
-		$twentyseventeen_l10n['icon']           = twentyseventeen_get_svg( array( 'icon' => 'angle-down', 'fallback' => true ) );
-	}
-
-	wp_enqueue_script( 'twentyseventeen-global', get_theme_file_uri( '/assets/js/global.js' ), array( 'jquery' ), '1.0', true );
-
-	wp_enqueue_script( 'jquery-scrollto', get_theme_file_uri( '/assets/js/jquery.scrollTo.js' ), array( 'jquery' ), '2.1.2', true );
-
-	wp_localize_script( 'twentyseventeen-skip-link-focus-fix', 'twentyseventeenScreenReaderText', $twentyseventeen_l10n );
-
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
 }
 add_action( 'wp_enqueue_scripts', 'twentyseventeen_scripts' );
 
@@ -537,28 +478,8 @@ function twentyseventeen_widget_tag_cloud_args( $args ) {
 add_filter( 'widget_tag_cloud_args', 'twentyseventeen_widget_tag_cloud_args' );
 
 /**
- * Implement the Custom Header feature.
- */
-require get_parent_theme_file_path( '/inc/custom-header.php' );
-
-/**
- * Custom template tags for this theme.
- */
-require get_parent_theme_file_path( '/inc/template-tags.php' );
-
-/**
- * Additional features to allow styling of the templates.
- */
-require get_parent_theme_file_path( '/inc/template-functions.php' );
-
-/**
  * Customizer additions.
  */
 require get_parent_theme_file_path( '/inc/customizer.php' );
 
-/**
- * SVG icons functions and filters.
- */
-require get_parent_theme_file_path( '/inc/icon-functions.php' );
 
-/*  Custom advanced fields*/

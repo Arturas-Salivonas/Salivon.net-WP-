@@ -193,18 +193,3 @@ function twentyseventeen_is_view_with_layout_option() {
 	return ( is_page() || ( is_archive() && ! is_active_sidebar( 'sidebar-1' ) ) );
 }
 
-/**
- * Bind JS handlers to instantly live-preview changes.
- */
-function twentyseventeen_customize_preview_js() {
-	wp_enqueue_script( 'twentyseventeen-customize-preview', get_theme_file_uri( '/assets/js/customize-preview.js' ), array( 'customize-preview' ), '1.0', true );
-}
-add_action( 'customize_preview_init', 'twentyseventeen_customize_preview_js' );
-
-/**
- * Load dynamic logic for the customizer controls area.
- */
-function twentyseventeen_panels_js() {
-	wp_enqueue_script( 'twentyseventeen-customize-controls', get_theme_file_uri( '/assets/js/customize-controls.js' ), array(), '1.0', true );
-}
-add_action( 'customize_controls_enqueue_scripts', 'twentyseventeen_panels_js' );
