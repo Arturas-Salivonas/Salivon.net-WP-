@@ -722,8 +722,12 @@ ul.list li a {
   color: #222;
   text-decoration: none;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 20px;
+}
+
+ul.list li a.main--label {
+  font-weight: 700;
 }
 
 ul.list li a:hover,

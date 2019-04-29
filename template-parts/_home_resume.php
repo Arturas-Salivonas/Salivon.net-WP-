@@ -115,10 +115,10 @@
 										
 										<ul>
 											<li>
-												<a>HTML / HTML 5 </a>
+												<a class="main--label">HTML / HTML 5 </a>
 											</li>
 											<li>
-												<a>CSS/ CSS3</a>
+												<a class="main--label">CSS/ CSS3</a>
 												<ul>
 													<li>
 														<a>SCSS</a>
@@ -135,7 +135,7 @@
 												</ul>
 											</li>
 											<li>
-												<a>JavaScript ES5/ES6</a>
+												<a class="main--label">JavaScript ES5/ES6</a>
 												<ul>
 													<li>
 														<a>jQuery</a>
@@ -149,13 +149,13 @@
 												</ul>
 											</li>
 											<li>
-												<a>CMS</a>
+												<a class="main--label">CMS</a>
 												<ul>
 													<li>
 														<a>WordPress</a>
 													</li>
 													<li>
-                            <a>Umbraco 7-8+</a>
+                            <a>Umbraco 7-8</a>
                           </li>
 													<li>
 														<a>Drupal 7</a>
@@ -163,7 +163,7 @@
 												</ul>
 											</li>
 											<li>
-												<a>Design</a>
+												<a class="main--label">Design</a>
 												<ul>
 													<li>
 														<a>Adobe Photoshop</a>
@@ -177,7 +177,7 @@
 												</ul>
 											</li>
 											<li>
-												<a>Extra </a>
+												<a class="main--label">Extra </a>
 												<ul>
 													<li>
 														<a>GIT / Bitbucket</a>
