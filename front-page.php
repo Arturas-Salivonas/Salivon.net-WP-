@@ -14,6 +14,7 @@
  ?>
 
 <?php get_header();?>
+
 <?php include 'template-parts/_master_loading-dots.php';?> <!-- calling Loading animation bubbles -->
 <div id="page" class="page">
 <?php include 'template-parts/_home_mobilemenu.php';?> <!-- calling main and mobile nav menu (<header>) -->
@@ -32,4 +33,10 @@
 
 </div>
 
+<style>
+.pt-wrapper {
+    background-color: #fff;
+    background-image: url(/wp-content/uploads/2018/02/bg_new.jpg);
+}
+</style>
 <?php get_footer();?>
