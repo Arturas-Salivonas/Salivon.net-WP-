@@ -19,7 +19,7 @@ body {
 }
 
 a {
-    color: $main-color;
+    //color: $main-color;
     text-decoration: none;
     outline: 0;
     -webkit-transition: all .3s ease-in-out;
@@ -28,7 +28,7 @@ a {
     -ms-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     &:hover {
-        color: $main-color-hover;
+        //color: $main-color-hover;
         text-decoration: none;
         outline: 0
     }
@@ -94,7 +94,7 @@ button:focus,
 a.button:hover,
 a.button:focus {
     color: $white;
-    background-color: $main-color
+    //background-color: $main-color
 }
 
 a.button:hover a.button:after {
@@ -112,8 +112,8 @@ a.button:hover a.button:after {
     background: transparent;
     width: 110px;
     height: 110px;
-    border-top: 3px solid $main-color;
-    border-left: 3px solid $main-color;
+    //border-top: 3px solid $main-color;
+    //border-left: 3px solid $main-color;
     left: 20px;
     top: 10px;
     z-index: 0
@@ -206,7 +206,7 @@ a.button:hover a.button:after {
     position: fixed;
     width: 150px;
     height: 100%;
-    background-color: $main-color;
+    //background-color: $main-color;
     overflow: auto;
     -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
@@ -258,7 +258,7 @@ ul.social-links li {
         text-align: center;
         &:hover {
             color: $white;
-            background-color: $main-color;
+            //background-color: $main-color;
             border-color: transparent;
         }
         i {
@@ -287,7 +287,7 @@ ul.social-links li:last-child a {
     overflow: hidden;
     float: right;
     i {
-        color: $main-color;
+        //color: $main-color;
         font-size: 21px;
         line-height: 50px
     }
@@ -341,7 +341,7 @@ ul.social-links li:last-child a {
                     width: 0;
                     height: 100%;
                     margin: 0 auto;
-                    background-color: $main-color;
+                    //background-color: $main-color;
                     -webkit-transition: all 0.2s ease-in-out;
                     -moz-transition: all 0.2s ease-in-out;
                     -o-transition: all 0.2s ease-in-out;
@@ -409,7 +409,7 @@ ul.social-links li:last-child a {
     position: relative;
     margin: 0;
     color: $white;
-    background-color: $main-color;
+    //background-color: $main-color;
     padding: 0 10px;
     font-size: 14px;
     font-weight: 200;
@@ -446,7 +446,7 @@ ul.social-links li:last-child a {
     width: 100%;
     z-index: 1;
     h1 {
-        color: $main-color;
+        //color: $main-color;
         text-align: center;
         font-size: 70px;
         margin: 0
@@ -477,7 +477,7 @@ ul.social-links li:last-child a {
                 width: 100%;
                 height: 2px;
                 margin-top: 0px;
-                background-color: $main-color;
+                //background-color: $main-color;
             }
         }
         .value {
@@ -520,7 +520,7 @@ ul.social-links li:last-child a {
     font-weight: 300;
     line-height: 1.1em;
     margin: 0 0 3px;
-    background-color: $main-color;
+    //background-color: $main-color;
     padding: 5px 8px 5px 8px;
     margin-left: -20px;
     font-size:1.3rem;
@@ -534,8 +534,8 @@ ul.social-links li:last-child a {
         height: 26px;
         width: 26px;
         text-align: center;
-        border-top: 1px solid $main-color;
-        border-left: 1px solid $main-color;
+        //border-top: 1px solid $main-color;
+        //border-left: 1px solid $main-color;
          i {
              font-size: 18px;
              line-height: 26px;
@@ -559,7 +559,7 @@ ul.social-links li:last-child a {
 }
 
 .career-timeline .event-description {
-    color: $main-color;
+    //color: $main-color;
     font-weight: 700;
 }
 
@@ -613,7 +613,7 @@ ul.social-links li:last-child a {
                          left: 20px;
                      }
                      i {
-                         color: $main-color;
+                         //color: $main-color;
                          position: absolute;
                          font-size: 24px;
                          bottom: 14px;
@@ -662,7 +662,7 @@ ul.social-links li:last-child a {
 }
 
 .header.header-color-light .site-title {
-    color: $main-color;
+    //color: $main-color;
     text-align: center;
     font-size: 1.2rem;
     font-weight: 300
@@ -680,7 +680,7 @@ ul.social-links li:last-child a {
 }
 
 .header.header-color-light .site-main-menu li.active a:after {
-    background-color: $main-color
+   //background-color: $main-color
 }
 
 ul.list {
@@ -708,7 +708,7 @@ ul.list ul:before {
     left: 0;
     bottom: 0;
     width: 0;
-    border-left: 1px solid $main-color
+    //border-left: 1px solid $main-color
 }
 
 ul.list li {
@@ -737,7 +737,7 @@ ul.list li a.main--label {
 
 ul.list li a:hover,
 ul.list li a:hover+ul li a {
-    color: $main-color
+    //color: $main-color
 }
 
 ul.list ul li:before {
@@ -748,7 +748,7 @@ ul.list ul li:before {
     left: 0;
     width: 8px;
     height: 0;
-    border-top: 1px solid $main-color
+    //border-top: 1px solid $main-color
 }
 
 ul.list ul li:last-child:before {
@@ -806,7 +806,7 @@ ul.list ul li:last-child:before {
     -ms-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     &:hover {
-        color: $main-color;
+        //color: $main-color;
         cursor: pointer;
         border: 2px solid $white;
         background: $white;
@@ -1152,9 +1152,9 @@ div.wpcf7-mail-sent-ok {
 }
 
 .Buttonx {
-    background: $main-color;
+    //background: $main-color;
     border-radius: 50px;
-    box-shadow: 0 10px 60px -10px $main-color;
+    //box-shadow: 0 10px 60px -10px $main-color;
     cursor: pointer;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     user-select: none;
@@ -1167,7 +1167,7 @@ div.wpcf7-mail-sent-ok {
     padding: .8em 3em;
     font-size: 1.1em;
     outline: 0;
-    border: 3px dashed $main-color;
+
     font-weight: 700;
     font-family: $mfont;
     text-transform: uppercase;
@@ -1175,20 +1175,20 @@ div.wpcf7-mail-sent-ok {
     color: $white;
     border: none;
     &:hover {
-        background: $main-color-hover;
-        box-shadow: 0 8px 65px -5px $main-color-hover;
+        //background: $main-color-hover;
+        //box-shadow: 0 8px 65px -5px $main-color-hover;
         color: white;
     }
     &:active {
-        background: $main-color-hover;
-        box-shadow: 0 8px 65px -5px $main-color-hover;
+       // background: $main-color-hover;
+       // box-shadow: 0 8px 65px -5px $main-color-hover;
         transform: perspective(250px) scale3d(1, 1, 1) translateY(5%) !important;
     }
 }
 
 span[data-typer-targets] {
     width: 100%;
-    color: $main-color;
+    //color: $main-color;
     font-weight: 700;
 }
 
@@ -1207,7 +1207,7 @@ span[data-typer-targets] {
 }
 
 .navigation--cta {
-    background: $main-color;
+    //background: $main-color;
     color: white;
     border-radius: 50px;
     width: 40px;
@@ -1224,7 +1224,7 @@ span[data-typer-targets] {
     justify-content: center;
     align-items: center;
     &:hover {
-        background: $main-color-hover;
+        //background: $main-color-hover;
         color: white;
     }
 }
