@@ -38,9 +38,9 @@
                   </div>
                   <p>You can find me here</p>
                   <ul class="social-links">
-                  <li><a class="tip social-button" href="https://www.linkedin.com/in/salivonas/" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
-									<li><a class="tip social-button" href="https://www.facebook.com/arturas.salivonas" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-									<li><a class="tip social-button" href="http://github.com/Arturas-Salivonas" title="GitHub"><i class="fab fa-github"></i></a></li>
+                  <li><a class="tip social-button" href="<?php the_field('social_-_linkedin_url'); ?>" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+									<li><a class="tip social-button" href="<?php the_field('social_-_facebook_url'); ?>" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+									<li><a class="tip social-button" href="<?php the_field('social_-_github_url'); ?>" title="GitHub"><i class="fab fa-github"></i></a></li>
                   </ul>
                 </div>
 						</div>

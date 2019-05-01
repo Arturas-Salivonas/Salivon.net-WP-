@@ -68,7 +68,10 @@
 
 								 <div class="block-title h3_low">
 									<div class="download-cv-block" style="margin-top: 5rem;">
-									<a class="Buttonx" target="_blank" href="http://salivon.net/wp-content/uploads/2018/09/Arturas_Salivonas_CV_NEW.pdf">Download CV</a>
+								<?php if( get_field('cv_download_url_file') ): ?>
+									<a class="Buttonx" target="_blank" href="<?php the_field('cv_download_url_file'); ?>">
+									<?php the_field('cv_download_button_text'); ?></a>
+								<?php endif; ?>
 								</div>
 								</div> 
 							</div>
