@@ -124,8 +124,6 @@ a.button:hover a.button:after {
   height: 100%;
   padding: 25px 5%;
   overflow: hidden;
-  background-color: #ffffff;
-  background-image: url("/wp-content/uploads/2018/02/bg_new.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-left: 0;
@@ -835,8 +833,6 @@ div.wpcf7-mail-sent-ok {
   height: 100%;
   padding: 25px 5%;
   overflow: visible;
-  background-color: #ffffff;
-  background-image: url(/wp-content/uploads/2018/02/bg_new.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

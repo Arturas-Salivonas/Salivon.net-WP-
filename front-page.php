@@ -35,8 +35,12 @@
 
 <style>
 .pt-wrapper {
-    background-color: #fff;
-    background-image: url(/wp-content/uploads/2018/02/bg_new.jpg);
+    background-color: <?php the_field('global_background_color_'); ?>;
+    background-image: url(<?php the_field('background_image_global'); ?>);
+}
+.error404 .pt-wrapper{
+	background-color: <?php the_field('global_background_color_'); ?>;
+    background-image: url(<?php the_field('background_image_global'); ?>);
 }
 </style>
 <?php get_footer();?>
