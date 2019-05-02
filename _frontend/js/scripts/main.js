@@ -65,7 +65,7 @@ $('.bird-eye').removeClass('focus-eyes3');
 $('.bird-body').removeClass('focus-body3');
 });;
 
-// Load images only when page is fully loaded
+// Load images only when page is fully loaded for tag img  & atribute src / source & srcset
 function init() {
   var imgDefer = document.getElementsByTagName('img');
   for (var i = 0; i < imgDefer.length; i++) {
@@ -73,9 +73,26 @@ function init() {
       imgDefer[i].setAttribute('src', imgDefer[i].getAttribute('data-src'));
     }
   }
+
+var imgDefer2 = document.getElementsByTagName('source');
+     for (var i = 0; i < imgDefer2.length; i++) {
+       if (imgDefer2[i].getAttribute('data-src2')) {
+        imgDefer2[i].setAttribute('srcset', imgDefer2[i].getAttribute('data-src2'));
+      }
+     }
 }
 window.onload = init;
 
+
+// function init2() {
+//   var imgDefer2 = document.getElementsByTagName('source');
+//   for (var i = 0; i < imgDefer2.length; i++) {
+//     if (imgDefer2[i].getAttribute('data-src2')) {
+//       imgDefer2[i].setAttribute('srcset', imgDefer2[i].getAttribute('data-src2'));
+//     }
+//   }
+// }
+// window.onload = init2;
 
 // tilt.js
 jQuery(document).ready(function ($) {
