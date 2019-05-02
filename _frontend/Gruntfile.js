@@ -6,7 +6,7 @@ module.exports = function(grunt) {
             dist: {
                 files: {
                     // destination for transpiled js : source js
-                    '../scripts/compiled.js': 'js/scripts.js'
+                    '../js/not_in_use/compiled.js': 'js/scripts.js'
                 },
                 options: {
                     transform: [['babelify', { presets: ["es2015"] }]],
@@ -22,8 +22,8 @@ module.exports = function(grunt) {
             banner: '/*! Grunt Uglify <%= grunt.template.today("yyyy-mm-dd") %> */ '
             },
             build: {
-            src: '../scripts/compiled.js',
-            dest: '../scripts/scripts.min.js'
+            src: '../js/not_in_use/compiled.js',
+            dest: '../js/scripts.min.js'
             }
         },
 
@@ -84,7 +84,8 @@ module.exports = function(grunt) {
     grunt.registerTask('default', [
     'browserify:dist',
   'sass',
-  'cssmin'
+  'cssmin',
+  'uglify'
     ]);
 	
 	grunt.registerTask('build', [

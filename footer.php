@@ -16,18 +16,8 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="/wp-content/themes/salivon.net_portfolio/js/modernizr.custom.js"></script>
-
 <script src="/wp-content/themes/salivon.net_portfolio/js/pages-switcher.js"></script>
-<script src="/wp-content/themes/salivon.net_portfolio/js/validator.js"></script>
-<script src="/wp-content/themes/salivon.net_portfolio/js/masonry.pkgd.min.js"></script>
-<script src="/wp-content/themes/salivon.net_portfolio/js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="/wp-content/themes/salivon.net_portfolio/js/jquery.hoverdir.js"></script>
-<script src="/wp-content/themes/salivon.net_portfolio/js/main.js"></script>
-<!-- Reikalingas  -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/10.3.5/lazyload.min.js"></script>
-<script>
-	var myLazyLoad = new LazyLoad();
-</script> -->
+<script src="/wp-content/themes/salivon.net_portfolio/js/scripts.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36192953-2"></script>
