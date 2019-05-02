@@ -18,7 +18,6 @@
 <script src="/wp-content/themes/salivon.net_portfolio/js/modernizr.custom.js"></script>
 <script src="/wp-content/themes/salivon.net_portfolio/js/pages-switcher.js"></script>
 <script src="/wp-content/themes/salivon.net_portfolio/js/scripts.min.js"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-36192953-2"></script>
 <script>

@@ -602,7 +602,7 @@ ul.social-links li:last-child a {
                      text-align: center;
                      padding-top: 5em;
                      h5 {
-                         font-size: 2.6rem;
+                         font-size: 2.2rem;
                          margin: 10px 0;
                          color: $white;
                      }
@@ -1142,11 +1142,6 @@ div.wpcf7-mail-sent-ok {
     transform: rotate(6deg) !important;
 }
 
-#particle-canvas {
-    width: 100%;
-    height: 100%;
-}
-
 .Button-wrapper {
     position: relative;
 }
@@ -1228,6 +1223,10 @@ span[data-typer-targets] {
         color: white;
     }
 }
+
+    .pt-page-5 ul.social-links li {
+        display: inline-block;
+    }
 
 @media (min-width:1200px) {
     html {

@@ -585,7 +585,7 @@ ul.social-links li:last-child a {
   padding-top: 5em;
 }
 .portfolio-grid figure a div h5 {
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   margin: 10px 0;
   color: #ffffff;
 }
@@ -1102,11 +1102,6 @@ div.wpcf7-mail-sent-ok {
   transform: rotate(6deg) !important;
 }
 
-#particle-canvas {
-  width: 100%;
-  height: 100%;
-}
-
 .Button-wrapper {
   position: relative;
 }
@@ -1177,6 +1172,10 @@ span[data-typer-targets] {
 }
 .navigation--cta:hover {
   color: white;
+}
+
+.pt-page-5 ul.social-links li {
+  display: inline-block;
 }
 
 @media (min-width: 1200px) {
