@@ -478,6 +478,17 @@ function twentyseventeen_widget_tag_cloud_args( $args ) {
 add_filter( 'widget_tag_cloud_args', 'twentyseventeen_widget_tag_cloud_args' );
 
 /**
+ * Give access to upload webp images to WP
+ */
+function cc_mime_types($mimes) {
+    $mimes['webp'] = 'image/webp';
+    return $mimes;
+}
+
+add_filter('upload_mimes', 'cc_mime_types');
+
+
+/**
  * Customizer additions.
  */
 require get_parent_theme_file_path( '/inc/customizer.php' );
