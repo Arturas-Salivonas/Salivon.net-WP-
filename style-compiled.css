@@ -125,6 +125,10 @@ a.button:hover a.button:after {
   padding-right: 0;
 }
 
+.pt-page-4 {
+  padding-bottom: 3rem;
+}
+
 .subpages {
   position: relative;
   width: 100%;
@@ -952,6 +956,7 @@ div.wpcf7-mail-sent-ok {
   height: 290px;
   background-repeat: no-repeat;
   background-image: url(http://salivon.net/wp-content/uploads/2018/03/signup-body-reversefull.png);
+  background-image: url(http://salivon.net/wp-content/uploads/2019/05/signup-body-reversefull.webp);
   z-index: 10;
   position: relative;
   -webkit-transition: 0.3s ease-out;
@@ -999,6 +1004,7 @@ div.wpcf7-mail-sent-ok {
   -ms-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
   background-image: url(http://salivon.net/wp-content/uploads/2018/03/signup-eyeball-reverse.png);
+  background-image: url(http://salivon.net/wp-content/uploads/2019/05/signup-eyeball-reverse.webp);
   width: 30px;
   height: 36px;
   background-repeat: no-repeat;
@@ -1006,6 +1012,7 @@ div.wpcf7-mail-sent-ok {
 
 .bird-signup .bird-arm {
   background-image: url(http://salivon.net/wp-content/uploads/2018/03/signup-arm-reverse.png);
+  background-image: url(http://salivon.net/wp-content/uploads/2019/05/signup-arm-reverse.webp);
   width: 115px;
   height: 149px;
   position: absolute;

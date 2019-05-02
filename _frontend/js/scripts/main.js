@@ -83,17 +83,6 @@ var imgDefer2 = document.getElementsByTagName('source');
 }
 window.onload = init;
 
-
-// function init2() {
-//   var imgDefer2 = document.getElementsByTagName('source');
-//   for (var i = 0; i < imgDefer2.length; i++) {
-//     if (imgDefer2[i].getAttribute('data-src2')) {
-//       imgDefer2[i].setAttribute('srcset', imgDefer2[i].getAttribute('data-src2'));
-//     }
-//   }
-// }
-// window.onload = init2;
-
 // tilt.js
 jQuery(document).ready(function ($) {
   $('.Buttonx').tilt({ scale: 1.1, speed: 1000 });

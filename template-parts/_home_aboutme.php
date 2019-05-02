@@ -36,64 +36,136 @@
       <div class="row">
          <div class="col-sm-4 col-md-2 subpage-block">
             <div class="client-block">
-               <a href="https://boudican.com" target="_blank" rel="nofollow"><img data-src="/wp-content/uploads/2018/07/boudicanblack.png" alt="image"></a>
+               <a href="https://boudican.com" target="_blank" rel="nofollow">
+                  <picture>
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2019/05/boudicanblack.webp" type="image/webp">
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2018/07/boudicanblack.png" type="image/jpeg">
+                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/wp-content/uploads/2018/07/boudicanblack.png" alt="Arturas Salivonas salivon.net">
+                  </picture>
+               </a>
             </div>
          </div>
          <div class="col-sm-4 col-md-2 subpage-block">
             <div class="client-block">
-               <a href="http://newstatesman.com" target="_blank" rel="nofollow"><img data-src="/wp-content/uploads/2018/02/1.png" alt="image"></a>
+               <a href="http://newstatesman.com" target="_blank" rel="nofollow">
+                  <picture>
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2019/05/1.webp" type="image/webp">
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2018/02/1.png" type="image/jpeg">
+                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/wp-content/uploads/2018/02/1.png" alt="Arturas Salivonas salivon.net">
+                  </picture>
+               </a>
             </div>
          </div>
          <div class="col-sm-4 col-md-2 subpage-block">
             <div class="client-block">
-               <a href="http://cbronline.com" target="_blank" rel="nofollow"><img data-src="/wp-content/uploads/2018/02/2.png" alt="image"></a>
+               <a href="http://cbronline.com" target="_blank" rel="nofollow">
+                  <picture>
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2019/05/2.webp" type="image/webp">
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2018/02/2.png" type="image/jpeg">
+                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/wp-content/uploads/2018/02/2.png" alt="Arturas Salivonas salivon.net">
+                  </picture>
+               </a>
             </div>
          </div>
          <div class="col-sm-4 col-md-2 subpage-block">
             <div class="client-block">
-               <a href="http://elitetraveler.com" target="_blank" rel="nofollow"><img data-src="/wp-content/uploads/2018/02/3.png" alt="image"></a>
+               <a href="http://elitetraveler.com" target="_blank" rel="nofollow">
+                  <picture>
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2019/05/3.webp" type="image/webp">
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2018/02/3.png" type="image/jpeg">
+                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/wp-content/uploads/2018/02/3.png" alt="Arturas Salivonas salivon.net">
+                  </picture>
+               </a>
             </div>
          </div>
          <div class="col-sm-4 col-md-2 subpage-block">
             <div class="client-block">
-               <a href="http://globaldata.com" target="_blank" rel="nofollow"><img data-src="/wp-content/uploads/2018/02/4.png" alt="image"></a>
+               <a href="http://globaldata.com" target="_blank" rel="nofollow">
+                  <picture>
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2019/05/4.webp" type="image/webp">
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2018/02/4.png" type="image/jpeg">
+                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/wp-content/uploads/2018/02/4.png" alt="Arturas Salivonas salivon.net">
+                  </picture>
+               </a>
             </div>
          </div>
          <div class="col-sm-4 col-md-2 subpage-block">
             <div class="client-block">
-               <a href="http://spearswms.com" target="_blank" rel="nofollow"><img data-src="/wp-content/uploads/2018/02/5.png" alt="image"></a>
+               <a href="http://spearswms.com" target="_blank" rel="nofollow">
+                  <picture>
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2019/05/5.webp" type="image/webp">
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2018/02/5.png" type="image/jpeg">
+                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/wp-content/uploads/2018/02/5.png" alt="Arturas Salivonas salivon.net">
+                  </picture>
+               </a>
             </div>
          </div>
       </div>
       <div class="row">
          <div class="col-sm-4 col-md-2 subpage-block">
             <div class="client-block">
-               <a href="http://verdict.co.uk" target="_blank" rel="nofollow"><img data-src="/wp-content/uploads/2018/02/6.png" alt="image"></a>
+               <a href="http://verdict.co.uk" target="_blank" rel="nofollow">
+                  <picture>
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2019/05/6.webp" type="image/webp">
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2018/02/6.png" type="image/jpeg">
+                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/wp-content/uploads/2018/02/6.png" alt="Arturas Salivonas salivon.net">
+                  </picture>
+               </a>
             </div>
          </div>
          <div class="col-sm-4 col-md-2 subpage-block">
             <div class="client-block">
-               <a href="http://pressgazette.co.uk/" target="_blank" rel="nofollow"><img data-src="/wp-content/uploads/2018/03/pressgazettenow.png" alt="image"></a>
+               <a href="http://pressgazette.co.uk/" target="_blank" rel="nofollow">
+                  <picture>
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2019/05/pressgazettenow.webp" type="image/webp">
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2018/03/pressgazettenow.png" type="image/jpeg">
+                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/wp-content/uploads/2018/03/pressgazettenow.png" alt="Arturas Salivonas salivon.net">
+                  </picture>
+               </a>
             </div>
          </div>
          <div class="col-sm-4 col-md-2 subpage-block">
             <div class="client-block">
-               <a href="http://compelo.com" target="_blank" rel="nofollow"><img data-src="/wp-content/uploads/2018/03/compelonow.png" alt="image"></a>
+               <a href="http://compelo.com" target="_blank" rel="nofollow">
+                  <picture>
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2019/05/compelonow.webp" type="image/webp">
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2018/03/compelonow.png" type="image/jpeg">
+                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/wp-content/uploads/2018/03/compelonow.png" alt="Arturas Salivonas salivon.net">
+                  </picture>
+               </a>
             </div>
          </div>
          <div class="col-sm-4 col-md-2 subpage-block">
             <div class="client-block">
-               <a href="http://us.money2020.com" target="_blank" rel="nofollow"><img data-src="/wp-content/uploads/2018/03/money2020usa.png" alt="image"></a>
+               <a href="http://us.money2020.com" target="_blank" rel="nofollow">
+                  <picture>
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2019/05/money2020usa.webp" type="image/webp">
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2018/03/money2020usa.png" type="image/jpeg">
+                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/wp-content/uploads/2018/03/money2020usa.png" alt="Arturas Salivonas salivon.net">
+                  </picture>
+               </a>
             </div>
          </div>
          <div class="col-sm-4 col-md-2 subpage-block">
             <div class="client-block">
-               <a href="https://www.canneslions.com/" target="_blank" rel="nofollow"><img data-src="/wp-content/uploads/2018/11/canneslionsblack.png" alt="image"></a>
+               <a href="https://www.canneslions.com/" target="_blank" rel="nofollow">
+                  <picture>
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2019/05/canneslionsblack.webp" type="image/webp">
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2018/11/canneslionsblack.png" type="image/jpeg">
+                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/wp-content/uploads/2018/11/canneslionsblack.png" alt="Arturas Salivonas salivon.net">
+                  </picture>
+               </a>
             </div>
          </div>
          <div class="col-sm-4 col-md-2 subpage-block">
             <div class="client-block">
-               <a href="https://www.ascential.com/" target="_blank" rel="nofollow"><img data-src="/wp-content/uploads/2018/11/ascentialblack.png" alt="image"></a>
+               <a href="https://www.ascential.com/" target="_blank" rel="nofollow">
+                  <picture>
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2019/05/ascentialblack.webp" type="image/webp">
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2018/11/ascentialblack.png" type="image/jpeg">
+                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/wp-content/uploads/2018/11/ascentialblack.png" alt="Arturas Salivonas salivon.net">
+                  </picture>
+               </a>
             </div>
          </div>
       </div>

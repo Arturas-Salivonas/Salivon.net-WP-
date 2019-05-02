@@ -1,6 +1,10 @@
 <header id="site_header" class="header mobile-menu-hide header-color-light">
    <div class="my-photo">
-      <img data-src="/wp-content/uploads/2018/07/Arturas-Salivonas150xfinal-2.jpg" alt="Arturas Salivonas">
+                     <picture>
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2019/05/Arturas-Salivonas150xfinal-2.webp" type="image/webp">
+                     <source srcset="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src2="/wp-content/uploads/2018/07/Arturas-Salivonas150xfinal-2.jpg" type="image/jpeg">
+                     <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" data-src="/wp-content/uploads/2018/07/Arturas-Salivonas150xfinal-2.jpg" alt="Arturas Salivonas salivon.net">
+                  </picture>
    </div>
    <div class="site-nav">
       <ul id="nav" class="site-main-menu">
