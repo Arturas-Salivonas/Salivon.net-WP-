@@ -37,7 +37,6 @@
 .pt-wrapper {
     background-color: <?php the_field('global_background_color_'); ?>;
 	background-image: url(<?php the_field('background_image_global'); ?>);
-	background-image: url(<?php the_field('background_image_global_webp'); ?>);
 }
 .error404 .pt-wrapper{
 	background-color: <?php the_field('global_background_color_'); ?>;
